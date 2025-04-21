@@ -7,3 +7,7 @@ Very easy assignment, but I have learned something new about executable permissi
 ## Step 02: Use `fetch` to download a page
 
 Node `fetch` api to download html and `fs` package to save it in a file.
+
+## Step 03: Use `curl` with `execa`
+
+This was new to me. First time to use `execa`. Running bash command in nodejs. Nice!!!
