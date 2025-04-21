@@ -3,3 +3,7 @@
 ## Step 01: Use `curl` to download a page
 
 Very easy assignment, but I have learned something new about executable permission in linux. `chmod` means **change mode**, `+x` means **add executable permission**. I have learned saving output using `-o filename.ext` earlier in the colemak setup.
+
+## Step 02: Use `fetch` to download a page
+
+Node `fetch` api to download html and `fs` package to save it in a file.
