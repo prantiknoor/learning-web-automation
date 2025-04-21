@@ -10,7 +10,9 @@ This repository contains assignments and projects completed as part of a web aut
 ## Tools and Frameworks
 
 - Puppeteer
-- Cypress
+- Cheerio
+- curl
+- Docker
 
 ## Getting Started
 
