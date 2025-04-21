@@ -19,3 +19,7 @@ I might not use `jsdom` earlier. Creating a query-able dom tree from html string
 ## Step 05: Parse the file with `puppeteer`
 
 Rendering html file in puppeteer and parsing data from there was new from there. A new learning.
+
+## Step 06: Puppeteer script to extract price from another page
+
+It was easy. Go to the url, after loading, query the product price.
