@@ -11,3 +11,7 @@ Node `fetch` api to download html and `fs` package to save it in a file.
 ## Step 03: Use `curl` with `execa`
 
 This was new to me. First time to use `execa`. Running bash command in nodejs. Nice!!!
+
+## Step 04: Parse the file with `jsdom`
+
+I might not use `jsdom` earlier. Creating a query-able dom tree from html string, sheii!!
