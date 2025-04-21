@@ -15,3 +15,7 @@ This was new to me. First time to use `execa`. Running bash command in nodejs. N
 ## Step 04: Parse the file with `jsdom`
 
 I might not use `jsdom` earlier. Creating a query-able dom tree from html string, sheii!!
+
+## Step 05: Parse the file with `puppeteer`
+
+Rendering html file in puppeteer and parsing data from there was new from there. A new learning.
