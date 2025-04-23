@@ -2,17 +2,23 @@
 
 This repository contains assignments and projects completed as part of a web automation course. The goal is to practice and enhance skills in web automation using various tools and frameworks.
 
-## Structure
+## Assignment 01
 
-- **Assignments**: Course-related exercises.
-- **Projects**: Larger automation projects linkup.
+Learned to download, parse, and extract data from web pages using tools like `curl`, `fetch`, `jsdom`, and `puppeteer`.
+
+## Assignment 02
+
+Explored advanced web automation techniques, including connecting to a remote browser instance using Puppeteer. 
+
+For running `docker` in github codespace and access it from local machine, [read here.](./assignment-02/README.md)
 
 ## Tools and Frameworks
 
 - Puppeteer
-- Cheerio
+- wsl
 - curl
 - Docker
+- GitHub Codespaces
 
 ## Getting Started
 
