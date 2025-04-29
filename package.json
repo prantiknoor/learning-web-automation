@@ -12,6 +12,7 @@
   "packageManager": "pnpm@10.8.1",
   "dependencies": {
     "@faker-js/faker": "^9.7.0",
+    "@ghostery/adblocker-puppeteer": "^2.5.2",
     "execa": "^9.5.2",
     "jsdom": "^26.1.0",
     "puppeteer": "^24.6.1"

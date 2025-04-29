@@ -11,6 +11,9 @@ importers:
       '@faker-js/faker':
         specifier: ^9.7.0
         version: 9.7.0
+      '@ghostery/adblocker-puppeteer':
+        specifier: ^2.5.2
+        version: 2.5.2(puppeteer@24.6.1)
       execa:
         specifier: ^9.5.2
         version: 9.5.2
@@ -70,10 +73,42 @@ packages:
     resolution: {integrity: sha512-aozo5vqjCmDoXLNUJarFZx2IN/GgGaogY4TMJ6so/WLZOWpSV7fvj2dmrV6sEAnUm1O7aCrhTibjpzeDFgNqbg==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
 
+  '@ghostery/adblocker-content@2.5.2':
+    resolution: {integrity: sha512-H3e4QZsom7HqVgIBLaoHriqRh27MyXgwC43ClidOXXbCtKn6h7c3wc9TnQssQpXpcyV7HRPmWjMtADzUc+yYKg==}
+
+  '@ghostery/adblocker-extended-selectors@2.5.2':
+    resolution: {integrity: sha512-Z2MQ4BiPTPG3cI1CFF1cE0IywL1EM2KGnOVkKEx62fnkO0aRyvAeja0jhQvjENtY/hixWLrsSg3MU95Clvq23g==}
+
+  '@ghostery/adblocker-puppeteer@2.5.2':
+    resolution: {integrity: sha512-es/cXFTBnCPor3XBKHPQ/difQDvWXwzpJQaJHbjypTFNLAxUPFaC0RcHtUox+uqxXa4yhVtWF4VNig7H3JFBWQ==}
+    peerDependencies:
+      puppeteer: '>5'
+
+  '@ghostery/adblocker@2.5.2':
+    resolution: {integrity: sha512-/SLxUGPd1JISNGOPsxKfbso+uylDEvEp3umF5gQ3x8YgsEZzD6zYx7H4ZQxAvG1pZIr4p6N9PiAf2N88T1Wo1Q==}
+
   '@puppeteer/browsers@2.10.0':
     resolution: {integrity: sha512-HdHF4rny4JCvIcm7V1dpvpctIGqM3/Me255CB44vW7hDG1zYMmcBMjpNqZEDxdCfXGLkx5kP0+Jz5DUS+ukqtA==}
     engines: {node: '>=18'}
     hasBin: true
+
+  '@remusao/guess-url-type@2.0.0':
+    resolution: {integrity: sha512-L98gV/X/GESt5Tgqq/PxpZYClVqeq6/5InrRKl4elq4qXbdZjHlNTgRhXb1xIaUBkikzv410sXw3QaBUYyXt8g==}
+
+  '@remusao/small@2.0.0':
+    resolution: {integrity: sha512-1ksGCbl1hSeO4CV/uk0qv2vUdZ1ZRdIMzSn0HFsHTJnmWSDk2li+T5eCI9BtweYe0uVQhCvbMjk/3qwsN6fuYg==}
+
+  '@remusao/smaz-compress@2.1.0':
+    resolution: {integrity: sha512-IyuzXxd5F1p5WAvA6Td9ny+wh3sj9szMmdZtQ8Fb5/yE4lIwujXCz0e702u62r3XU47qsQcR/CjSRaw65u7iGA==}
+
+  '@remusao/smaz-decompress@2.1.0':
+    resolution: {integrity: sha512-TlM/ibBOMiCRniuBjv4x4nIcVbOb1o6DdK+p5OM+zHNndEu9za2C1Bd+PSqnsVCn15Fv2HcLVWGpqh2hKs9uuw==}
+
+  '@remusao/smaz@2.1.0':
+    resolution: {integrity: sha512-hTn/ZuBY4LYaqvprTdW3U+uU4xrw5JusxqHIhUzroQlrT6l4LFQRi+aJE/SOv09iS7eO/pqg6Ec3Go+gKiWH8A==}
+
+  '@remusao/trie@2.0.0':
+    resolution: {integrity: sha512-YmVfZrd+igKXJMuAvsNdDnUAyoNw7M+9e2ij6UsaZFZGQzLd75pbxhiuFmdphEXi/s3uXe25+wtFRWjLA2Ho0Q==}
 
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
@@ -545,6 +580,12 @@ packages:
   tldts-core@6.1.86:
     resolution: {integrity: sha512-Je6p7pkk+KMzMv2XXKmAE3McmolOQFdxkKw0R8EYNr7sELW46JqnNeTX8ybPiQgvg1ymCoF8LXs5fzFaZvJPTA==}
 
+  tldts-core@7.0.4:
+    resolution: {integrity: sha512-9/IRbnIvUENGD6rg7m6Q9h/jH5ZL28hwjAhxrJx0AmcBue1FSsc84XZFaV748EsDVflid86aGDR11eSz6sbQjA==}
+
+  tldts-experimental@7.0.4:
+    resolution: {integrity: sha512-FZeyn3E3sCJzJJPDJmTBoH66vrwmjF71ye+gMk4PaqSEA89CaT4OrbLo7Hpr8yh6CtoDxIcB6kWWkKrYsCvL+A==}
+
   tldts@6.1.86:
     resolution: {integrity: sha512-WMi/OQ2axVTf/ykqCQgXiIct+mSQDFdH2fkwhPwgEwvJ1kSzZRiinb0zF2Xb8u4+OqPChmyI6MEu4EezNJz+FQ==}
     hasBin: true
@@ -683,6 +724,28 @@ snapshots:
 
   '@faker-js/faker@9.7.0': {}
 
+  '@ghostery/adblocker-content@2.5.2':
+    dependencies:
+      '@ghostery/adblocker-extended-selectors': 2.5.2
+
+  '@ghostery/adblocker-extended-selectors@2.5.2': {}
+
+  '@ghostery/adblocker-puppeteer@2.5.2(puppeteer@24.6.1)':
+    dependencies:
+      '@ghostery/adblocker': 2.5.2
+      '@ghostery/adblocker-content': 2.5.2
+      puppeteer: 24.6.1
+      tldts-experimental: 7.0.4
+
+  '@ghostery/adblocker@2.5.2':
+    dependencies:
+      '@ghostery/adblocker-content': 2.5.2
+      '@ghostery/adblocker-extended-selectors': 2.5.2
+      '@remusao/guess-url-type': 2.0.0
+      '@remusao/small': 2.0.0
+      '@remusao/smaz': 2.1.0
+      tldts-experimental: 7.0.4
+
   '@puppeteer/browsers@2.10.0':
     dependencies:
       debug: 4.4.0
@@ -695,6 +758,23 @@ snapshots:
     transitivePeerDependencies:
       - bare-buffer
       - supports-color
+
+  '@remusao/guess-url-type@2.0.0': {}
+
+  '@remusao/small@2.0.0': {}
+
+  '@remusao/smaz-compress@2.1.0':
+    dependencies:
+      '@remusao/trie': 2.0.0
+
+  '@remusao/smaz-decompress@2.1.0': {}
+
+  '@remusao/smaz@2.1.0':
+    dependencies:
+      '@remusao/smaz-compress': 2.1.0
+      '@remusao/smaz-decompress': 2.1.0
+
+  '@remusao/trie@2.0.0': {}
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -1191,6 +1271,12 @@ snapshots:
       b4a: 1.6.7
 
   tldts-core@6.1.86: {}
+
+  tldts-core@7.0.4: {}
+
+  tldts-experimental@7.0.4:
+    dependencies:
+      tldts-core: 7.0.4
 
   tldts@6.1.86:
     dependencies:
