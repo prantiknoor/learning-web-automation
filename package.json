@@ -14,5 +14,8 @@
     "execa": "^9.5.2",
     "jsdom": "^26.1.0",
     "puppeteer": "^24.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3"
   }
 }
